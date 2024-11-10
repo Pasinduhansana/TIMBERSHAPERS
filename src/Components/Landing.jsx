@@ -20,7 +20,7 @@ const Achivement_card = () => {
 	return (
 		<>
 			<motion.div
-				className=" absolute flex flex-row bottom-14  gap-10 p-4 left-8 text-gray-800 text-[16px]"
+				className=" absolute flex flex-row top-[82vh]  gap-10 p-4 left-5 text-gray-800 text-[16px]"
 				ref={ref1}
 				initial={{ opacity: 0, y: 150 }} // Start off-screen
 				animate={inView1 ? { opacity: 1, y: 0 } : { opacity: 0, y: 150 }} // Animate based on inView1
